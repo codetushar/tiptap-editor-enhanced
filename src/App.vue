@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import TipTap from './components/TipTap.vue'
 </script>
 
 <template>
@@ -10,7 +9,6 @@ import TipTap from './components/TipTap.vue'
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
